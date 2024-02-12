@@ -1,0 +1,66 @@
+/* GLOBAL SETTINGS */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/*******  Custom fonts *******/
+@font-face {
+   font-family: 'Milky', 'Monic', "Advera";
+   src: url(Milky.ttf), url(Monic.ttf), url(Advera.ttf)
+   /* Add additional src lines for other formats if available */
+}
+
+/* BACKGROUND COLOUR */
+html,
+body {
+   height: 100%;
+   background-color: black;
+}
+
+/*NAV-BAR */
+.bg-custom {
+   background-color: #C1BDBC;
+}
+
+.main-content {
+   height: calc(100vh - 56px); /* 56px is the height of the navbar */
+   background-color: black;
+   text-align: center;
+   padding: 120px;
+   line-height: 50px;
+}
+
+/* HERO-SECTION - IMAGE CONTAINER */
+.camera-img-container img {
+   object-fit: cover;
+}
+
+/* HERO-SECTION - TEXT CONTAINER */
+.h1-main-content{
+   font-size: 30px;
+   color: #fff;
+   padding: 5px;
+   font-family: 'Milky';
+}
+.p-main-content1{
+font-size: 25px;
+font-weight: bold;
+color: #6E8F89;
+padding: 10px;
+font-family: "Monic";
+}
+
+.p-main-content2{
+   font-size: 25px;
+   color: #fff;
+   padding: 10px;
+   font-family: "Advera";
+}
+
+
+.footer {
+   background-color: #6E8F89;
+   color: white; /* Text color for the footer */
+}
